@@ -1,0 +1,17 @@
+# package directories
+node_modules
+jspm_packages
+
+# IDE
+.idea
+
+# JS FILES
+.build
+
+.DS_Store
+
+coverage
+
+yarn.lock
+
+db.sql

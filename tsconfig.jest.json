@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "noEmit": false,
+    "outDir": "./.build/",
+    "target": "es2018",
+    "lib": ["esnext", "DOM"],
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "typeRoots": ["src/types", "node_modules/@types"],
+    "strict": true,
+    "useUnknownInCatchVariables": false,
+    "noImplicitAny": false,
+    "strictNullChecks": false // enabling this rule will prevent typeorm & typegraphql to infer column & fields type
+  },
+  "exclude": ["./**/*.test.ts", "./**/.build"]
+}
