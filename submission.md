@@ -51,4 +51,4 @@ I have implementedt this automatic flagging of tenant's rate lent status in a si
   It might make sense to extend this so that the property manager can also see a list of **apartments** where rent is still due.
 
 - **Performance optimization:**  
-  If we expect the property manager to query late tenants very often, we could consider adding an **index** to the relevant field for faster lookups.
+  If we expect the property manager to query late tenants very often, we could consider adding an **index** to the `isRentLate` field for faster lookups.
