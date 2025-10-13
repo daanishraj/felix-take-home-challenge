@@ -3,7 +3,8 @@
 > 
 > Initially, the task was marked as a *2-hour challenge*, and my approach was developed with that time constraint in mind.  
 > 
-> Since the mention of the 2-hour limit has now been removed, it is not completely clear to me what the exact expectations are.  
+> Since the mention of the 2-hour limit has now been removed, it is not completely clear to me what the exact expectations are. As you asked for a
+> quick submission, I did not have the time to implement some of the ideas shared below. But I am happy to discuss them!
 > 
 > However, I have completed the following tasks:
 
@@ -32,7 +33,7 @@ I have implementedt this automatic flagging of tenant's rate lent status in a si
 - **30 mins** — Completing `submission.md`
 
 
-4. **What else could be done / Other thoughts**
+4. **If there was more time/ Other thoughts**
 
 - **Reason for not many code suggestions in comments:**  
   I treated this PR as a real PR I am working on. I usually prefer to give the author of the PR a chance to respond to a comment with their thoughts or code changes before suggesting my own.
